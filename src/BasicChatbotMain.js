@@ -35,6 +35,12 @@ sendButton.addEventListener('click', async () => {
   }
 });
 
+userInput.addEventListener('keydown', (e) => {
+  if (e.key === 'Enter') {
+    sendButton.click();
+  }
+});
+
 function appendMessage(sender, text) {
   const messageEl = document.createElement('div');
   messageEl.className = `message ${sender}`;
