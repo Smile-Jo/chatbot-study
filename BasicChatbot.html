@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>기본 챗봇</title>
+    <link rel="stylesheet" href="./BasicChatbotStyle.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>기본 챗봇</h1>
+      <div class="chat-window" id="chatWindow"></div>
+      <div class="input-area">
+        <input
+          type="text"
+          id="userInput"
+          placeholder="메시지를 입력하세요"
+        />
+        <button id="sendButton">보내기</button>
+      </div>
+      <button onclick="location.href='index.html'">홈으로 돌아가기</button>
+    </div>
+
+    <script type="module" src="./src/BasicChatbotMain.js"></script>
+  </body>
+</html>
