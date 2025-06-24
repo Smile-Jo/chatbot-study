@@ -56,6 +56,7 @@
   font-size: 16px;
   background-color: #ffffff;
   color: #000000;
+  height: 24px;
 }
 
 .input-area button {
@@ -66,4 +67,5 @@
   border: none;
   font-size: 16px;
   cursor: pointer;
+  height: 48px;
 }
